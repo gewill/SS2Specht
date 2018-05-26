@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6441E020B83BE80052C6CE /* Conf.yaml in Resources */ = {isa = PBXBuildFile; fileRef = BE6441DF20B83BE80052C6CE /* Conf.yaml */; };
+		BE764D1A20B7E31B00418E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE764D1920B7E31B00418E64 /* AppDelegate.swift */; };
+		BE764D1C20B7E31B00418E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE764D1B20B7E31B00418E64 /* ViewController.swift */; };
+		BE764D1E20B7E31C00418E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE764D1D20B7E31C00418E64 /* Assets.xcassets */; };
+		BE764D2120B7E31C00418E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE764D1F20B7E31C00418E64 /* Main.storyboard */; };
+		CB343B61963A4F68C2165027 /* Pods_SS2Specht.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6811E3625D3F71E1ADF28F /* Pods_SS2Specht.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41E10DDA9246942B1CE03337 /* Pods-SS2Specht.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SS2Specht.release.xcconfig"; path = "Pods/Target Support Files/Pods-SS2Specht/Pods-SS2Specht.release.xcconfig"; sourceTree = "<group>"; };
+		6A9FBCF3823E6C9ED8DBA1FC /* Pods-SS2Specht.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SS2Specht.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SS2Specht/Pods-SS2Specht.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6441DF20B83BE80052C6CE /* Conf.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Conf.yaml; sourceTree = "<group>"; };
+		BE764D1620B7E31B00418E64 /* SS2Specht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SS2Specht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE764D1920B7E31B00418E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE764D1B20B7E31B00418E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE764D1D20B7E31C00418E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE764D2020B7E31C00418E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE764D2220B7E31C00418E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE764D2320B7E31C00418E64 /* SS2Specht.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SS2Specht.entitlements; sourceTree = "<group>"; };
+		EB6811E3625D3F71E1ADF28F /* Pods_SS2Specht.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SS2Specht.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE764D1320B7E31B00418E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB343B61963A4F68C2165027 /* Pods_SS2Specht.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CF3D2C56EAA9CD5D21A44F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A9FBCF3823E6C9ED8DBA1FC /* Pods-SS2Specht.debug.xcconfig */,
+				41E10DDA9246942B1CE03337 /* Pods-SS2Specht.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE764D0D20B7E31B00418E64 = {
+			isa = PBXGroup;
+			children = (
+				BE764D1820B7E31B00418E64 /* SS2Specht */,
+				BE764D1720B7E31B00418E64 /* Products */,
+				15CF3D2C56EAA9CD5D21A44F /* Pods */,
+				C8C9DCD51EB8EF8EA3455B32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE764D1720B7E31B00418E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE764D1620B7E31B00418E64 /* SS2Specht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE764D1820B7E31B00418E64 /* SS2Specht */ = {
+			isa = PBXGroup;
+			children = (
+				BE764D1920B7E31B00418E64 /* AppDelegate.swift */,
+				BE764D1B20B7E31B00418E64 /* ViewController.swift */,
+				BE6441DF20B83BE80052C6CE /* Conf.yaml */,
+				BE764D1D20B7E31C00418E64 /* Assets.xcassets */,
+				BE764D1F20B7E31C00418E64 /* Main.storyboard */,
+				BE764D2220B7E31C00418E64 /* Info.plist */,
+				BE764D2320B7E31C00418E64 /* SS2Specht.entitlements */,
+			);
+			path = SS2Specht;
+			sourceTree = "<group>";
+		};
+		C8C9DCD51EB8EF8EA3455B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6811E3625D3F71E1ADF28F /* Pods_SS2Specht.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE764D1520B7E31B00418E64 /* SS2Specht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE764D2620B7E31C00418E64 /* Build configuration list for PBXNativeTarget "SS2Specht" */;
+			buildPhases = (
+				BD993042797A2A69251C4A41 /* [CP] Check Pods Manifest.lock */,
+				BE764D1220B7E31B00418E64 /* Sources */,
+				BE764D1320B7E31B00418E64 /* Frameworks */,
+				BE764D1420B7E31B00418E64 /* Resources */,
+				9C9FE9BDA730D9919D73230A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SS2Specht;
+			productName = SS2Specht;
+			productReference = BE764D1620B7E31B00418E64 /* SS2Specht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE764D0E20B7E31B00418E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gewill.org;
+				TargetAttributes = {
+					BE764D1520B7E31B00418E64 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BE764D1120B7E31B00418E64 /* Build configuration list for PBXProject "SS2Specht" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE764D0D20B7E31B00418E64;
+			productRefGroup = BE764D1720B7E31B00418E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE764D1520B7E31B00418E64 /* SS2Specht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE764D1420B7E31B00418E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE764D1E20B7E31C00418E64 /* Assets.xcassets in Resources */,
+				BE6441E020B83BE80052C6CE /* Conf.yaml in Resources */,
+				BE764D2120B7E31C00418E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C9FE9BDA730D9919D73230A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SS2Specht/Pods-SS2Specht-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SS2Specht/Pods-SS2Specht-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD993042797A2A69251C4A41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SS2Specht-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE764D1220B7E31B00418E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE764D1C20B7E31B00418E64 /* ViewController.swift in Sources */,
+				BE764D1A20B7E31B00418E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE764D1F20B7E31C00418E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE764D2020B7E31C00418E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE764D2420B7E31C00418E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE764D2520B7E31C00418E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE764D2720B7E31C00418E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9FBCF3823E6C9ED8DBA1FC /* Pods-SS2Specht.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SS2Specht/SS2Specht.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
+				INFOPLIST_FILE = SS2Specht/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gewill.SS2Specht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BE764D2820B7E31C00418E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E10DDA9246942B1CE03337 /* Pods-SS2Specht.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SS2Specht/SS2Specht.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
+				INFOPLIST_FILE = SS2Specht/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gewill.SS2Specht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE764D1120B7E31B00418E64 /* Build configuration list for PBXProject "SS2Specht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE764D2420B7E31C00418E64 /* Debug */,
+				BE764D2520B7E31C00418E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE764D2620B7E31C00418E64 /* Build configuration list for PBXNativeTarget "SS2Specht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE764D2720B7E31C00418E64 /* Debug */,
+				BE764D2820B7E31C00418E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE764D0E20B7E31B00418E64 /* Project object */;
+}
